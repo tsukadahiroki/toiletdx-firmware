@@ -1,5 +1,5 @@
 {
   "version": "9.42.28",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "notes": "NimBLE 2.3.7->2.4.0 upgrade to fix assert crash. BLE+projector control enabled. esp_bt_controller_mem_release removed."
+  "notes": "NimBLE 2.4.0 + BLE stage logging + WDT double-init fix. BLE+projector fully enabled."
 }
