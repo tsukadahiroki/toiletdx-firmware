@@ -1,5 +1,5 @@
 {
-  "version": "9.42.28",
+  "version": "9.42.29",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "notes": "NimBLE 2.4.0 + BLE stage logging + WDT double-init fix. BLE+projector fully enabled."
+  "notes": "WDT/heap diagnostic logging. Cloud OTA heap threshold 50KB->30KB. Health HTTP timeout 10s->8s."
 }
