@@ -1,6 +1,6 @@
 {
-    "version": "9.42.17",
-    "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/ToiletDX_v9_42_17.ino.bin",
-    "size": 1436720,
-    "sha256": "f56f714a6f820cbecd0320139933cb005e5b5ff7c5533e74da2a1a66a7b6b986"
+    "version": "9.42.25",
+    "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/ToiletDX_v9_42_25.ino.bin",
+    "size": 1630048,
+    "sha256": "786948ad27d1b16d505ba7bbfee02d8d8af54d577cc8feb82f549241ed784aa9"
 }
