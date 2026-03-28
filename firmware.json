@@ -1,6 +1,5 @@
 {
-    "version": "9.42.27",
-    "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/ToiletDX_v9_42_27.ino.bin",
-    "size": 1629984,
-    "sha256": "3e483b8ce9a709539bfb7a41c9feae591491d2e8cc5763179583e01d2b249377"
+  "version": "9.42.28",
+  "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
+  "notes": "NimBLE 2.3.7->2.4.0 upgrade to fix assert crash. BLE+projector control enabled. esp_bt_controller_mem_release removed."
 }
