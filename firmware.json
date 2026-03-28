@@ -1,5 +1,5 @@
 {
-  "version": "9.42.29",
+  "version": "9.42.30",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "notes": "WDT/heap diagnostic logging. Cloud OTA heap threshold 50KB->30KB. Health HTTP timeout 10s->8s."
+  "notes": "GPT review P1-P4: sendHealthToGAS DIAG decompose, httpSendOne TLS scope split, doCloudOtaUpdate heap obs, health suppression boost."
 }
