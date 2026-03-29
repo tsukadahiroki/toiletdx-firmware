@@ -1,5 +1,7 @@
 {
-  "version": "9.42.30",
+  "version": "9.43.6",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "notes": "GPT review P1-P4: sendHealthToGAS DIAG decompose, httpSendOne TLS scope split, doCloudOtaUpdate heap obs, health suppression boost."
+  "size": 1628560,
+  "sha256": "70f54461e1665789acad4c8b6934e227de765b614baa8adfa4b79a9f2bb80edb",
+  "notes": "v9.43.6: range_status quality gate + minimum entry distance filter. Fixes false 30-min detection caused by VL53L1X phase wraparound."
 }
