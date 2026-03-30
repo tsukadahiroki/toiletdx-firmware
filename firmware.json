@@ -1,7 +1,7 @@
 {
-  "version": "9.43.6",
+  "version": "9.42.17",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1628560,
-  "sha256": "70f54461e1665789acad4c8b6934e227de765b614baa8adfa4b79a9f2bb80edb",
-  "notes": "v9.43.6: range_status quality gate + minimum entry distance filter. Fixes false 30-min detection caused by VL53L1X phase wraparound."
+  "size": 1436720,
+  "sha256": "f56f714a6f820cbecd0320139933cb005e5b5ff7c5533e74da2a1a66a7b6b986",
+  "notes": "v9.42.17: stable production version. Cloud OTA target pinned to prevent unwanted upgrades."
 }
