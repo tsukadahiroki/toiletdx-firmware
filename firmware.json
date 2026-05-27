@@ -1,7 +1,8 @@
 {
-  "version": "9.42.17",
+  "version": "9.74.9",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1436720,
-  "sha256": "f56f714a6f820cbecd0320139933cb005e5b5ff7c5533e74da2a1a66a7b6b986",
-  "notes": "v9.42.17: stable production version. Cloud OTA target pinned to prevent unwanted upgrades."
+  "size": 1404496,
+  "sha256": "8766a893808cbe4152035ea482c9645ce9c913395ec3c2f5f00cad2d5a07bbc8",
+  "min_current_fw": "9.65.0",
+  "notes": "v9.74.9: graceperiod+BUG-007 fix+min_current_fw. min_current_fw=9.65.0 skips v9.74.8+ devices below 9.65.0. L4合議謙信裁断済み 2026-05-27."
 }
