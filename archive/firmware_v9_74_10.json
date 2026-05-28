@@ -1,0 +1,8 @@
+{
+  "version": "9.74.10",
+  "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
+  "size": 1404848,
+  "sha256": "62263769b450e86e5bfc7cd0537e0b5fbbdc9e9c53ad084158fb260c68e370ad",
+  "min_current_fw": "9.65.0",
+  "notes": "NVSデータ欠損修正(DEC-C案B+C)・L4合議謙信裁断2026-05-28。flush2回失敗時にdeferBufをNVS書戻し+events_lost/requeued可視化(heartbeatでGAS送出+/status JSON)"
+}
