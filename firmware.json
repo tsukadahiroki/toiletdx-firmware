@@ -1,8 +1,8 @@
-﻿{
+{
   "version": "9.75.1",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1405200,
-  "sha256": "dbe53720e2ca91e7e7987861c69eeaf158038bab0cdeb1dee79afff6c43c1b04",
+  "size": 1404880,
+  "sha256": "24c406d6780ca833cefdbcb4c592aac524548375d2bb5ddb8ac3f7626aa4d11e",
   "min_current_fw": "9.65.0",
-  "notes": "OTA中LED点滅追加(Ticker)・L4合議謙信裁断2026-05-28。Cloud OTA中にGPIO2がTicker100ms点滅で書込み中を視覚表示。"
+  "notes": "Cloud OTA RSSI閾値緩和: -75→-80dBm(stall=24等弱電波機対応)。L4合議謙信裁断2026-05-28。"
 }
