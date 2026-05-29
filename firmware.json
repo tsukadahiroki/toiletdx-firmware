@@ -1,8 +1,8 @@
 {
-  "version": "9.80.0",
+  "version": "9.81.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1404608,
-  "sha256": "b410cdf17e31c9d2a735abc6c2ed3fc928bb804337e46356a9e01388d27b7eb2",
+  "size": 1404976,
+  "sha256": "57b0b79af64a71f1101de1336558d33d8f9e4d9ecb9f535efa22999e29eb7225",
   "min_current_fw": "9.65.0",
-  "notes": "LED診断パターン拡張: PLAY/BUFFER/RETRY/FLASH_OK追加。在室=1秒点滅、NVSバッファ=1700ms/300ms呼吸、WiFi断=600ms点滅、HTTP成功=3回瞬間点滅。L4合議謙信裁断 2026-05-29。"
+  "notes": "LEDぽかぽかN回パターン: 常時点灯=正常,PLAY点滅=在室,1〜8回=WiFi初回〜センサー異常。センサー異常時入退出検出スキップ追加。L4合議謙信裁断x3 2026-05-29。"
 }
