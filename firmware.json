@@ -1,8 +1,8 @@
 {
-  "version": "9.77.0",
+  "version": "9.78.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1403008,
-  "sha256": "649a8095b3df259bf5f96b161f055b615264ec3de8159e681489409fc0ded636",
+  "size": 1403536,
+  "sha256": "0ca8d6473aeb6e8c98a28ab10be16585602cd635bc07dcc4b2a24ca2aeb9e939",
   "min_current_fw": "9.65.0",
-  "notes": "autoConnect廃止・運用中台Portal完全禁止・新品初回のみPortal許可(180s)。L4合議謙信裁断x2 2026-05-29。"
+  "notes": "Cloud OTA dlClient.setTimeout 30s->90s + gh_fail_incomplete即時リトライ(30s待機1回)。L4合議謙信裁断 2026-05-29。v9.77.0内容(autoConnect廃止)継承。"
 }
