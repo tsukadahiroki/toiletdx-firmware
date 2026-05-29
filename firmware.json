@@ -1,8 +1,8 @@
 {
-  "version": "9.79.0",
+  "version": "9.80.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1404144,
-  "sha256": "9dfd566f9aa10d21fe82101731480963526f117ee99a004cd35b4dceae8bbbd5",
+  "size": 1404608,
+  "sha256": "b410cdf17e31c9d2a735abc6c2ed3fc928bb804337e46356a9e01388d27b7eb2",
   "min_current_fw": "9.65.0",
-  "notes": "WiFi.SSID()バグ修正→esp_wifi_get_config()でNVS直接読み取り。Portal禁止徹底。L4合議謙信裁断 2026-05-29。v9.78.0内容継承。"
+  "notes": "LED診断パターン拡張: PLAY/BUFFER/RETRY/FLASH_OK追加。在室=1秒点滅、NVSバッファ=1700ms/300ms呼吸、WiFi断=600ms点滅、HTTP成功=3回瞬間点滅。L4合議謙信裁断 2026-05-29。"
 }
