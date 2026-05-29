@@ -1,8 +1,8 @@
 {
-  "version": "9.78.0",
+  "version": "9.79.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1403536,
-  "sha256": "0ca8d6473aeb6e8c98a28ab10be16585602cd635bc07dcc4b2a24ca2aeb9e939",
+  "size": 1404144,
+  "sha256": "9dfd566f9aa10d21fe82101731480963526f117ee99a004cd35b4dceae8bbbd5",
   "min_current_fw": "9.65.0",
-  "notes": "Cloud OTA dlClient.setTimeout 30s->90s + gh_fail_incomplete即時リトライ(30s待機1回)。L4合議謙信裁断 2026-05-29。v9.77.0内容(autoConnect廃止)継承。"
+  "notes": "WiFi.SSID()バグ修正→esp_wifi_get_config()でNVS直接読み取り。Portal禁止徹底。L4合議謙信裁断 2026-05-29。v9.78.0内容継承。"
 }
