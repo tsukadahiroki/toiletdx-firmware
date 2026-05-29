@@ -1,8 +1,8 @@
 {
-  "version": "9.76.0",
+  "version": "9.77.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1404960,
-  "sha256": "9ae4444aba610ebc4444882840ebd879f138431063981b3057667d613d5d7bf0",
+  "size": 1403008,
+  "sha256": "649a8095b3df259bf5f96b161f055b615264ec3de8159e681489409fc0ded636",
   "min_current_fw": "9.65.0",
-  "notes": "RSSI移動平均フィルタ追加(5回×200ms=1秒)。Cloud OTA誤スキップ防止。L4合議謙信裁断 2026-05-29。"
+  "notes": "autoConnect廃止・運用中台Portal完全禁止・新品初回のみPortal許可(180s)。L4合議謙信裁断x2 2026-05-29。"
 }
