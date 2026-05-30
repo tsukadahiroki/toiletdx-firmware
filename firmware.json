@@ -1,8 +1,8 @@
 {
-  "version": "9.81.0",
+  "version": "9.82.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1404976,
-  "sha256": "57b0b79af64a71f1101de1336558d33d8f9e4d9ecb9f535efa22999e29eb7225",
+  "size": 1404992,
+  "sha256": "b9dca49a95588b106ae517cec901b5e78cde03bd57c0062a284e8187a7cbb655",
   "min_current_fw": "9.65.0",
-  "notes": "LEDぽかぽかN回パターン: 常時点灯=正常,PLAY点滅=在室,1〜8回=WiFi初回〜センサー異常。センサー異常時入退出検出スキップ追加。L4合議謙信裁断x3 2026-05-29。"
+  "notes": "WIFI_REBOOT_AFTER_MS 30分→10分短縮。WiFi切断からの自律回復時間を90分→30分に改善。L4合議謙信裁断 2026-05-30。"
 }
