@@ -1,8 +1,8 @@
 {
-  "version": "9.82.0",
+  "version": "9.83.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1404992,
-  "sha256": "b9dca49a95588b106ae517cec901b5e78cde03bd57c0062a284e8187a7cbb655",
+  "size": 1405184,
+  "sha256": "275b60b7476fd0d5f8c21f94c34fdb7248275d90fe04952083f180ad1eb703f7",
   "min_current_fw": "9.65.0",
-  "notes": "WIFI_REBOOT_AFTER_MS 30分→10分短縮。WiFi切断からの自律回復時間を90分→30分に改善。L4合議謙信裁断 2026-05-30。"
+  "notes": "WiFi切断ログをHBに追加(wifi_last_offline_ms/wifi_last_reboot_cnt)。AP障害の可視化強化。L4合議謙信裁断 2026-05-30。"
 }
