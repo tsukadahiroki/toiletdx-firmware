@@ -1,8 +1,8 @@
 {
-  "version": "9.85.0",
+  "version": "9.86.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1405296,
-  "sha256": "a220bdc6e80b3437d4a76321c58339762969ad40a925c3d84e85edb391e86f59",
+  "size": 1405248,
+  "sha256": "cff37b3519e1ec0809a34573378ddc9aaa5511a5045b08247e27159e3cd73212",
   "min_current_fw": "9.65.0",
-  "notes": "sensorAnomaly中もNVS保存(anomaly_flag=1)+WiFi順次送信5分間隔。殿命令 2026-05-31。"
+  "notes": "NVS→GAS送信バグ修正: retryBuffer直接httpSendOne呼出・失敗時NVS保全・deferCountLED。L4合議謙信裁断 2026-05-31。"
 }
