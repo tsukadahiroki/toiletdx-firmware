@@ -1,8 +1,8 @@
 {
   "version": "9.86.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1405280,
-  "sha256": "d02d8747d0f24dcde4ec015421cb08cf87288d0d686bb800ac60dc712769a854",
+  "size": 1405296,
+  "sha256": "77b1b3278ac08c844ba5b3650382f4700ac27500d9c069dde2130778aa77d8bd",
   "min_current_fw": "9.65.0",
   "notes": "NVS→GAS送信バグ修正: retryBuffer直接httpSendOne呼出・失敗時NVS保全・deferCountLED。L4合議謙信裁断 2026-05-31。"
 }
