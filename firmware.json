@@ -1,8 +1,8 @@
 {
-  "version": "9.87.0",
+  "version": "9.88.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
   "size": 1405744,
-  "sha256": "ce721a460e6455ba9ffa43f8cbac7cd97cf94cc4ecf3829ac775061ad9b05152",
+  "sha256": "96eed5d47ae1c869c0c8139b3d23ccfebffe6def15857b54c12b025929eecd05",
   "min_current_fw": "9.65.0",
-  "notes": "WiFiチップ固着対策: 20回ESP.restart()後にesp_deep_sleep()でハードリセット(30s→5min escalation)。L4合議謙信裁断 2026-06-01。"
+  "notes": "WiFiチップ固着閾値20→5回に短縮。RSSI分析でstall14/21は中位電波(-74/-76dBm)→固着主因はESP.restart()蓄積と確定。L4合議謙信裁断 2026-06-01。"
 }
