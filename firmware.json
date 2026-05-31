@@ -1,8 +1,8 @@
 {
-  "version": "9.83.0",
+  "version": "9.84.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1405184,
-  "sha256": "275b60b7476fd0d5f8c21f94c34fdb7248275d90fe04952083f180ad1eb703f7",
+  "size": 1405232,
+  "sha256": "e991d760b366f614d5351693b47df88ead7c6f4c3ccb3f007c24f93bbadf6087",
   "min_current_fw": "9.65.0",
-  "notes": "WiFi切断ログをHBに追加(wifi_last_offline_ms/wifi_last_reboot_cnt)。AP障害の可視化強化。L4合議謙信裁断 2026-05-30。"
+  "notes": "wifi_recover_reboot追加(何回目の再起動でWiFi回復か)。RTC_NOINIT_ATTR採用でESP.restart()跨ぎ保持。L4合議謙信裁断 2026-05-31。"
 }
