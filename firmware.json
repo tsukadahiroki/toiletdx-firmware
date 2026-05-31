@@ -1,8 +1,8 @@
 {
-  "version": "9.88.0",
+  "version": "9.89.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1405744,
-  "sha256": "96eed5d47ae1c869c0c8139b3d23ccfebffe6def15857b54c12b025929eecd05",
+  "size": 1407568,
+  "sha256": "6b4e7fdeabab95d40bf65b96f3b379884ad595f2b79cd91e94b6e12867ab3883",
   "min_current_fw": "9.65.0",
-  "notes": "WiFiチップ固着閾値20→5回に短縮。RSSI分析でstall14/21は中位電波(-74/-76dBm)→固着主因はESP.restart()蓄積と確定。L4合議謙信裁断 2026-06-01。"
+  "notes": "WiFi認証情報保護3点セット: ①Factory ResetからWiFi NVS消去除去②MRD crash-reboot抑止③SSID空→wifi_configuredフラグ+Portal禁止。L4合議謙信裁断 2026-06-01。"
 }
