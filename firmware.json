@@ -1,8 +1,8 @@
 {
-  "version": "9.84.0",
+  "version": "9.85.0",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1405232,
-  "sha256": "e991d760b366f614d5351693b47df88ead7c6f4c3ccb3f007c24f93bbadf6087",
+  "size": 1405296,
+  "sha256": "a220bdc6e80b3437d4a76321c58339762969ad40a925c3d84e85edb391e86f59",
   "min_current_fw": "9.65.0",
-  "notes": "wifi_recover_reboot追加(何回目の再起動でWiFi回復か)。RTC_NOINIT_ATTR採用でESP.restart()跨ぎ保持。L4合議謙信裁断 2026-05-31。"
+  "notes": "sensorAnomaly中もNVS保存(anomaly_flag=1)+WiFi順次送信5分間隔。殿命令 2026-05-31。"
 }
