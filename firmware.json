@@ -1,8 +1,8 @@
 {
-  "version": "9.90.2",
+  "version": "9.90.3",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
   "size": 1407904,
-  "sha256": "be8f946f67cdff094931d63265977e79a9d826b148c960b66d8528f0728008dc",
+  "sha256": "ebca0fccf1a150ce40755fce5b556b56716ef697d16d33873a3e5962b32e6742",
   "min_current_fw": "9.65.0",
   "notes": "LED正典確定(殿承認): Portal=長+短+長暗(500+150+1500ms)/PLAY=息継ぎ/WiFi断=ゆっくり1回/WiFi再接続=パパ+暗/NVS=中速1回/HTTP失敗=速めダブル/センサー=長短交互。L4合議謙信裁断2026-06-01。"
 }
