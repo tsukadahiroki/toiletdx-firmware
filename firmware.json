@@ -1,8 +1,8 @@
 {
-  "version": "9.90.3",
+  "version": "9.90.4",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1407904,
-  "sha256": "ebca0fccf1a150ce40755fce5b556b56716ef697d16d33873a3e5962b32e6742",
+  "size": 1408336,
+  "sha256": "a5c1f51d5c9c14aa73b80b5da55553f6389f37a29f31f28e0ecd9ebb22e14f9d",
   "min_current_fw": "9.65.0",
-  "notes": "LED正典確定(殿承認): Portal=長+短+長暗(500+150+1500ms)/PLAY=息継ぎ/WiFi断=ゆっくり1回/WiFi再接続=パパ+暗/NVS=中速1回/HTTP失敗=速めダブル/センサー=長短交互。L4合議謙信裁断2026-06-01。"
+  "notes": "NVS→GAS即送信保証3点: ①WiFi復旧時lastRetryTime=0(即発火) ②復旧後60秒MAX_SEND=5(バースト) ③nvs_bufferedフラグFW明示送信。L4合議謙信裁断2026-06-01。"
 }
