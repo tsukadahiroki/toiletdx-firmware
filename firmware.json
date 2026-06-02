@@ -1,8 +1,8 @@
 {
-  "version": "9.90.5",
+  "version": "9.90.6",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1408320,
-  "sha256": "e044eca786b09ba8ed8da110809926a658b74005258ad5803af354c007c47d66",
+  "size": 1408496,
+  "sha256": "4e8266592c938822edccc4f97d59967040475e0713d7dedda498ca8f093b6685",
   "min_current_fw": "9.65.0",
-  "notes": "nvs_bufferedバグ修正: リアルタイム送信もU=1になっていた問題解消。retryBuffer=nvs_buffered=false送信、GASが時刻差分で判定。2026-06-02。"
+  "notes": "安定性最優先。MACベースジッター追加（WiFi復旧後の全台一斉発火防止）。48時間安定稼働確認フェーズ。L4合議謙信裁断2026-06-02。"
 }
