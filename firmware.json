@@ -1,8 +1,8 @@
 {
-  "version": "9.90.6",
+  "version": "9.90.7",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1408496,
-  "sha256": "4e8266592c938822edccc4f97d59967040475e0713d7dedda498ca8f093b6685",
+  "size": 1408816,
+  "sha256": "644536da05e68c7b72f4a7c221813931ef2aceb826e0b4a9446ddd61c0671d94",
   "min_current_fw": "9.65.0",
-  "notes": "安定性最優先。MACベースジッター追加（WiFi復旧後の全台一斉発火防止）。48時間安定稼働確認フェーズ。L4合議謙信裁断2026-06-02。"
+  "notes": "httpSendOneをCore 0に移動。弱電波でもcheckToF()常時動作→センサー検知確実。L4合議謙信裁断2026-06-02。"
 }
