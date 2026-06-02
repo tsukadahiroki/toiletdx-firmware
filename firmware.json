@@ -1,8 +1,8 @@
 {
-  "version": "9.90.6",
+  "version": "9.90.8",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1408496,
-  "sha256": "4e8266592c938822edccc4f97d59967040475e0713d7dedda498ca8f093b6685",
+  "size": 1408816,
+  "sha256": "644536da05e68c7b72f4a7c221813931ef2aceb826e0b4a9446ddd61c0671d94",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.7ロールバック: Core0タスクでLED誤動作発生。v9.90.6安定版に戻す。2026-06-02。"
+  "notes": "httpSendOneをCore 0非同期化（正式版）スタック24KB+portCRITICAL保護。v9.90.7の10KBスタック不足問題を修正。L4合議謙信裁断2026-06-02。"
 }
