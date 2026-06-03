@@ -1,8 +1,8 @@
 {
-  "version": "9.90.10",
+  "version": "9.90.11",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1410800,
-  "sha256": "f2dc94772e48806999bf1e58e34815c00888bc193468dee4b55c0c8bfe084199",
+  "size": 1410848,
+  "sha256": "200e5e8e83b2cbe1d0908b902217cd500e4f9c61d55b69d9f2c1b6b74835f079",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.10: obstruction exit_dist=-5 is not persisted or sent as a GAS entry/exit event; NVS retry drops old obstruction events."
+  "notes": "v9.90.11: OTA rollback confirmation is delayed for 15 minutes by verifyRollbackLater(); expired pending firmware explicitly rolls back."
 }
