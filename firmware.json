@@ -1,8 +1,8 @@
 {
-  "version": "9.90.11",
+  "version": "9.90.13",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1410848,
-  "sha256": "200e5e8e83b2cbe1d0908b902217cd500e4f9c61d55b69d9f2c1b6b74835f079",
+  "size": 1410544,
+  "sha256": "120e782210621796b0ba4179e4e48c5ea89d098a95ed01b3ebf3f38065dfd6f8",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.11: OTA rollback confirmation is delayed for 15 minutes by verifyRollbackLater(); expired pending firmware explicitly rolls back."
+  "notes": "v9.90.13: Send obstruction/sensor-anomaly exits to the normal event sheet with duration_sec and exit_dist_mm preserved; rollback grace remains 15 minutes."
 }
