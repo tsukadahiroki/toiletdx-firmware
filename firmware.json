@@ -2,7 +2,7 @@
   "version": "9.90.14",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
   "size": 1410704,
-  "sha256": "15bc54e1873a26cc41d0c7a384a6435a13ae80afccbddd6db30f73bb210bfe64",
+  "sha256": "15bc54e1873a26cc41d0c7a384a6435a13ae80afccbbdd6db30f73bb210bfe64",
   "min_current_fw": "9.65.0",
   "notes": "v9.90.14: Drop events shorter than 20 seconds before NVS/GAS; obstruction and long-duration anomaly events still go to the normal event sheet; rollback grace remains 15 minutes."
 }
