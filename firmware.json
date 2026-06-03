@@ -1,8 +1,8 @@
 {
-  "version": "9.90.13",
+  "version": "9.90.14",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1410544,
-  "sha256": "120e782210621796b0ba4179e4e48c5ea89d098a95ed01b3ebf3f38065dfd6f8",
+  "size": 1410704,
+  "sha256": "15bc54e1873a26cc41d0c7a384a6435a13ae80afccbddd6db30f73bb210bfe64",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.13: Send obstruction/sensor-anomaly exits to the normal event sheet with duration_sec and exit_dist_mm preserved; rollback grace remains 15 minutes."
+  "notes": "v9.90.14: Drop events shorter than 20 seconds before NVS/GAS; obstruction and long-duration anomaly events still go to the normal event sheet; rollback grace remains 15 minutes."
 }
