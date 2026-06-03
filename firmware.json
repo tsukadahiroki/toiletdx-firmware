@@ -1,8 +1,8 @@
 {
-  "version": "9.90.9",
+  "version": "9.90.10",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1410576,
-  "sha256": "d1ed3b32275d17807df59f99efd389475db4c30022e94b51bf567087fac0a213",
+  "size": 1410800,
+  "sha256": "f2dc94772e48806999bf1e58e34815c00888bc193468dee4b55c0c8bfe084199",
   "min_current_fw": "9.65.0",
-  "notes": "EN×10回で完全FactoryReset（WiFi含む全削除）追加。転貸・廃棄前必須操作。3秒確認ステップあり。L4合議謙信裁断2026-06-03。"
+  "notes": "v9.90.10: obstruction exit_dist=-5 is not persisted or sent as a GAS entry/exit event; NVS retry drops old obstruction events."
 }
