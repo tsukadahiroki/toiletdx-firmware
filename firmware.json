@@ -1,8 +1,8 @@
 {
-  "version": "9.90.15",
+  "version": "9.90.19",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1409456,
-  "sha256": "14b191077f5bd918f296b1aaa7c624c56d4958f40f92e59e36d04a35a0377077",
+  "size": 1411344,
+  "sha256": "81ce5e66633875a8105756b5cfb6a64e5f3d4312260b63541182b6010c01a044",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.15: Do not auto-close occupancy after 10-minute obstruction or 30-minute long presence; keep occupied until normal exit so actual duration and exit distance are recorded. Keeps v9.90.14 short-event filtering."
+  "notes": "v9.90.19: enter10s_guard. Records enter_dist_10s_mm from the current valid ToF loop distance instead of a one-shot tof.read(), preventing 0mm/invalid 10s snapshots during close obstruction tests. Includes v9.90.18_usb_rescue base and v9.90.15 long-obstruction behavior."
 }

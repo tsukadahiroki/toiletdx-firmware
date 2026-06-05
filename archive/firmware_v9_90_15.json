@@ -1,0 +1,8 @@
+{
+  "version": "9.90.15",
+  "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
+  "size": 1409456,
+  "sha256": "14b191077f5bd918f296b1aaa7c624c56d4958f40f92e59e36d04a35a0377077",
+  "min_current_fw": "9.65.0",
+  "notes": "v9.90.15: Do not auto-close occupancy after 10-minute obstruction or 30-minute long presence; keep occupied until normal exit so actual duration and exit distance are recorded. Keeps v9.90.14 short-event filtering."
+}
