@@ -1,8 +1,8 @@
 {
-  "version": "9.90.21",
+  "version": "9.90.22",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1412672,
-  "sha256": "dc69fed4da785536c0693f8f639fb05dda0d3aed295a3e1f7e661e22f9013261",
+  "size": 1412416,
+  "sha256": "a25c56cea250ccca8ee086c4ffa56225e00b1ee7f55bb04c1e59509d36ca74cf",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.21: new_device_portal. Allows WiFi setup Portal for completely blank new ESP32 units when both WiFi and stall NVS are unset, without adding per-device IDs. Keeps v9.90.20 portal_once and v9.90.19 enter10s_guard behavior."
+  "notes": "v9.90.22: en10_confirm_fix. Removes impossible GPIO0 confirmation after EN x10 because EN is reset line, not readable runtime input. EN x10 now directly performs complete factory reset including WiFi credentials and sets portal_once for setup."
 }

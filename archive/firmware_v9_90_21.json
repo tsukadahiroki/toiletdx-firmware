@@ -1,0 +1,8 @@
+{
+  "version": "9.90.21",
+  "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
+  "size": 1412672,
+  "sha256": "dc69fed4da785536c0693f8f639fb05dda0d3aed295a3e1f7e661e22f9013261",
+  "min_current_fw": "9.65.0",
+  "notes": "v9.90.21: new_device_portal. Allows WiFi setup Portal for completely blank new ESP32 units when both WiFi and stall NVS are unset, without adding per-device IDs. Keeps v9.90.20 portal_once and v9.90.19 enter10s_guard behavior."
+}
