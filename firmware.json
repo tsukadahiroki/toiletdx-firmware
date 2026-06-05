@@ -1,8 +1,8 @@
 {
-  "version": "9.90.20",
+  "version": "9.90.21",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1411712,
-  "sha256": "ba664bdbc74536362d2017ef91bf54d1ebc941a5984dcfeaa563949cc624341a",
+  "size": 1412672,
+  "sha256": "dc69fed4da785536c0693f8f639fb05dda0d3aed295a3e1f7e661e22f9013261",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.20: portal_once. Removes per-device USB rescue Portal exceptions and allows WiFi setup Portal only after an explicit ENx10 complete reset by setting a one-time portal_once flag. Keeps v9.90.19 enter10s_guard behavior."
+  "notes": "v9.90.21: new_device_portal. Allows WiFi setup Portal for completely blank new ESP32 units when both WiFi and stall NVS are unset, without adding per-device IDs. Keeps v9.90.20 portal_once and v9.90.19 enter10s_guard behavior."
 }

@@ -1,0 +1,8 @@
+{
+  "version": "9.90.20",
+  "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
+  "size": 1411712,
+  "sha256": "ba664bdbc74536362d2017ef91bf54d1ebc941a5984dcfeaa563949cc624341a",
+  "min_current_fw": "9.65.0",
+  "notes": "v9.90.20: portal_once. Removes per-device USB rescue Portal exceptions and allows WiFi setup Portal only after an explicit ENx10 complete reset by setting a one-time portal_once flag. Keeps v9.90.19 enter10s_guard behavior."
+}
