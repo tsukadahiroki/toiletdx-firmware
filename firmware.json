@@ -1,8 +1,8 @@
 {
-  "version": "9.90.23",
+  "version": "9.90.24",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1413568,
-  "sha256": "b5046ceba4066459b2bdaed06f494ea2c321047639c82bbb1153536fdeb2b486",
+  "size": 1413632,
+  "sha256": "7da1b6cd25e235f741d23c941f4302e9a1f15262d29de746396e9b9db381ffad",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.23: uptime_time_repair. Adds NVS sidecar metadata for UP_ timestamps and repairs buffered event times after NTP recovers within the same boot. Power-off transfers without RTC remain unrecoverable. Keeps v9.90.22 EN x10 fix."
+  "notes": "v9.90.24: wifi_reboot_60m. Keeps the existing WiFi recovery design but extends WiFi-loss restart thresholds: vacant ESP.restart 10min->60min, force deep sleep 30min->120min. This preserves NTP-derived time longer during WiFi outages while retaining deep sleep as a last-resort WiFi chip recovery."
 }
