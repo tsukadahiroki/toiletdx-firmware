@@ -1,8 +1,8 @@
 {
-  "version": "9.90.22",
+  "version": "9.90.23",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1412416,
-  "sha256": "a25c56cea250ccca8ee086c4ffa56225e00b1ee7f55bb04c1e59509d36ca74cf",
+  "size": 1413568,
+  "sha256": "b5046ceba4066459b2bdaed06f494ea2c321047639c82bbb1153536fdeb2b486",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.22: en10_confirm_fix. Removes impossible GPIO0 confirmation after EN x10 because EN is reset line, not readable runtime input. EN x10 now directly performs complete factory reset including WiFi credentials and sets portal_once for setup."
+  "notes": "v9.90.23: uptime_time_repair. Adds NVS sidecar metadata for UP_ timestamps and repairs buffered event times after NTP recovers within the same boot. Power-off transfers without RTC remain unrecoverable. Keeps v9.90.22 EN x10 fix."
 }
