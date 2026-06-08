@@ -1,8 +1,8 @@
 {
-  "version": "9.90.25",
+  "version": "9.90.27",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1414112,
-  "sha256": "9effe008feb680f3f47d88a475c4dfe6b4ab2309ad92b925012f7ca40d9bedce",
+  "size": 1416624,
+  "sha256": "50e7b229b027e67c98ed58ac550e6c1a017e6121a8b1ca8d1b938a1bea459e60",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.25: duration_clock_fix. If both enter_time and exit_time are valid real timestamps, duration_sec is recalculated from their clock difference. Fixes occupancy checkpoint restore cases where displayed enter/exit times are correct but millis-based duration is short after reboot. Keeps v9.90.24 WiFi reboot thresholds 60min/120min."
+  "notes": "v9.90.27: clock_monotonic_fix. Keeps estimated clock monotonic during WiFi-offline operation, persists estimated time before restart/deep sleep with sleep offset, fixes exit_time earlier than enter_time using duration_sec, fills missing MAC in event_id, widens long-occupancy clock correction to 3 days, and clears occupancy checkpoint immediately after NVS event save to avoid duplicate overlapping events."
 }
