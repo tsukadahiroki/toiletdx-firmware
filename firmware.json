@@ -1,8 +1,8 @@
 {
-  "version": "9.90.24",
+  "version": "9.90.25",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1413632,
-  "sha256": "7da1b6cd25e235f741d23c941f4302e9a1f15262d29de746396e9b9db381ffad",
+  "size": 1414112,
+  "sha256": "9effe008feb680f3f47d88a475c4dfe6b4ab2309ad92b925012f7ca40d9bedce",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.24: wifi_reboot_60m. Keeps the existing WiFi recovery design but extends WiFi-loss restart thresholds: vacant ESP.restart 10min->60min, force deep sleep 30min->120min. This preserves NTP-derived time longer during WiFi outages while retaining deep sleep as a last-resort WiFi chip recovery."
+  "notes": "v9.90.25: duration_clock_fix. If both enter_time and exit_time are valid real timestamps, duration_sec is recalculated from their clock difference. Fixes occupancy checkpoint restore cases where displayed enter/exit times are correct but millis-based duration is short after reboot. Keeps v9.90.24 WiFi reboot thresholds 60min/120min."
 }
