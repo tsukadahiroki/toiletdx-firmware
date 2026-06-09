@@ -1,8 +1,8 @@
 {
-  "version": "9.90.27",
+  "version": "9.90.28",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
-  "size": 1416624,
-  "sha256": "50e7b229b027e67c98ed58ac550e6c1a017e6121a8b1ca8d1b938a1bea459e60",
+  "size": 1417296,
+  "sha256": "512be08a6624d5d663c9603ca24f0ac13a93b89ef2c82577df5484c928290b01",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.27: clock_monotonic_fix. Keeps estimated clock monotonic during WiFi-offline operation, persists estimated time before restart/deep sleep with sleep offset, fixes exit_time earlier than enter_time using duration_sec, fills missing MAC in event_id, widens long-occupancy clock correction to 3 days, and clears occupancy checkpoint immediately after NVS event save to avoid duplicate overlapping events."
+  "notes": "v9.90.28: event_meta_fix. Keeps v9.90.27 clock fixes, preserves event-time baseline in an NVS sidecar for delayed resend, marks retryBuffer sends older than 120 seconds as nvs_buffered=1, and expands deterministic MAC-based GAS send jitter to 0-30 seconds using all MAC bytes."
 }
