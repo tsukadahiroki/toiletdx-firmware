@@ -1,8 +1,8 @@
 {
-  "version": "9.90.28",
+  "version": "9.90.29",
   "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
   "size": 1417296,
-  "sha256": "512be08a6624d5d663c9603ca24f0ac13a93b89ef2c82577df5484c928290b01",
+  "sha256": "d88015fd5fb60ae6da5cfee5ed9aaffe1dec1131f7bd5229204e44bdf8041877",
   "min_current_fw": "9.65.0",
-  "notes": "v9.90.28: event_meta_fix. Keeps v9.90.27 clock fixes, preserves event-time baseline in an NVS sidecar for delayed resend, marks retryBuffer sends older than 120 seconds as nvs_buffered=1, and expands deterministic MAC-based GAS send jitter to 0-30 seconds using all MAC bytes."
+  "notes": "v9.90.29: reboot_reduce. Preserves v9.90.28 event metadata fixes and the 24h preventive restart, while reducing WiFi-loss/zombie-triggered restarts by extending WiFi reboot thresholds to 6h/12h and zombie reboot to 3h. Also normalizes HTTPClient OTA binary timeouts to 60s to avoid uint16 overflow."
 }

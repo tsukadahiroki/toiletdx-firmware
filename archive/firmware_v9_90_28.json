@@ -1,0 +1,8 @@
+{
+  "version": "9.90.28",
+  "url": "https://raw.githubusercontent.com/tsukadahiroki/toiletdx-firmware/main/firmware.bin",
+  "size": 1417296,
+  "sha256": "512be08a6624d5d663c9603ca24f0ac13a93b89ef2c82577df5484c928290b01",
+  "min_current_fw": "9.65.0",
+  "notes": "v9.90.28: event_meta_fix. Keeps v9.90.27 clock fixes, preserves event-time baseline in an NVS sidecar for delayed resend, marks retryBuffer sends older than 120 seconds as nvs_buffered=1, and expands deterministic MAC-based GAS send jitter to 0-30 seconds using all MAC bytes."
+}
